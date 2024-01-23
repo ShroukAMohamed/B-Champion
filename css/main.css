@@ -1,0 +1,1158 @@
+
+.features .bg-img
+{
+    background-image: url('../img/bg-img.jpg');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.features .part-from-bg
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.38);
+    width: 100%;
+    height: 100%;
+}
+
+.scroll
+{
+    top: 10%;
+}
+
+.features .navs ul li a
+{
+    color: rgb(249, 247, 247) !important;
+    margin: 0 10px;
+}
+
+.features .navs ul li a:hover
+{
+    color: white !important;
+}
+
+
+
+.logo
+{
+    background-image:url('../img/B_champion_logo.jpg');
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav
+{
+    z-index: 5;
+    transition: 0.5s;
+}
+
+.navs button:first-of-type
+{
+    text-decoration: none;
+    border: 0;
+}
+
+.navs .info
+{
+    color: white !important;
+}
+
+.navs .sit
+{
+    background-color: #971e1e;
+    width: 60%;
+}
+.navbar-toggler-icon{
+    background-image: url('../img/menu_list_icon.png');
+}
+
+ul .nav-active
+{
+    position: relative;
+    transition: 0.3s;
+}
+
+ul .nav-active::after
+{
+    content: '';
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+ul li
+{
+    position: relative;
+    transition: 0.4s;
+}
+
+ul li::after
+{
+    content: '';
+    position: absolute;
+    transition: 0.4s;
+    width: 0%;
+    height: 2px;
+    left: 15%;
+}
+
+ul li:hover::after
+{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    background-color: white;
+}
+
+.features .bg-text h2
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.features .bg-text p
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.features .bg-text
+{
+    position: relative;
+}
+
+.features .bg-text::before
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: white;
+}
+
+.sticked {
+    background: rgba(16, 16, 16, 0.61);
+    padding: 15px 0;
+    padding-top: 0!important;
+    padding-top: 12px !important;
+    box-shadow: 0px 2px 20px rgba(220, 223, 229, 0.296);
+}
+
+.About
+{
+    padding-top: 4%;
+}
+
+.About .feature h2
+{
+    color: rgba(13, 24, 71, 0.828);
+    font-family: "Signika", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.About .feature h2::after
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: 8px;
+    top: 52%;
+}
+
+.About .feature h2::before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: -40px;
+    top: 52%;
+}
+
+.About .feature h3
+{
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 94%;
+    margin: auto;
+}
+
+.About .About-feature p
+{
+    font-family: "Signika", sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(89, 88, 88);
+    width: 94%;
+    margin: auto;
+}
+
+.About .About-feature .details
+{
+    padding-top: 1%;
+    position: relative;
+    padding-left: 5%;
+}
+
+.About .About-feature .details::before
+{
+    content: '';
+    position: absolute;
+    width: 4.5px;
+    height: 100%;
+    left: 0.5%;
+    background-color:  rgba(87, 137, 236, 0.894);
+    border-radius: 3px;
+}
+
+.Services
+{
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+
+.Services .feature h2
+{
+    color: rgba(13, 24, 71, 0.828);
+    font-family: "Signika", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Services .feature h2::after
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: 8px;
+    top: 52%;
+}
+
+.Services .feature h2::before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: -40px;
+    top: 52%;
+}
+
+.Services .feature h3
+{
+    font-family: "Signika", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 4%;
+    color: rgba(0, 0, 0, 0.758);
+}
+
+.Services .text-line .service-details
+{
+    padding-left: 40px;
+}
+
+.Services .text-line
+{
+    position: relative;
+    margin-left: 10px;
+}
+
+.Services .text-line .service-details
+{
+    margin-left: 15px;
+}
+
+.Services .text-line::before
+{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color:  rgba(87, 137, 236, 0.894);
+    border-radius: 3px;
+}
+
+.Services-feature
+{
+    padding-top: 3%;
+}
+
+.Services .Services-feature p
+{
+    font-family: "Signika", sans-serif;
+    font-size: 25px;
+    color: rgb(77, 76, 76);
+}
+
+.Services .Services-feature p i
+{
+    color: rgb(52, 121, 240);
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.Services .Services-feature p span
+{
+    padding-left: 6%;
+}
+
+.Gallery
+{
+    padding-top: 3%;
+}
+
+.Gallery h2
+{
+    color: rgba(13, 24, 71, 0.828);
+    font-family: "Signika", sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Gallery h2::after
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: 8px;
+    top: 52%;
+}
+
+.Gallery h2::before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: -40px;
+    top: 52%;
+}
+
+.Gallery .picture_video
+{
+    background-image: url('../img/photo3.jpg');
+    width: 100%;
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.Gallery .picture_video .part-from
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 10, 22, 0.254);
+    background-size: cover;
+    z-index: 2;
+}
+
+.gallery-text
+{
+    position: relative;
+    margin-left: 8%;
+    z-index: 3;
+}
+
+.gallery-text::before
+{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: white;
+    left: -10%;
+}
+
+.Gallery .gallery-text h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+
+.Gallery .gallery-text h3 i
+{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.Gallery .gallery-text p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+
+.Gallery div img
+{
+    transition:0.2s  ease-in-out;
+    cursor: pointer;
+}
+
+.Gallery div img:hover
+{
+    transform: scale(1.1);
+}
+
+.gallery-item img
+{
+    width: 100%;
+    height: 100%;
+}
+
+/*lightbox*/
+.lightbox{
+    position: fixed;
+    display: none;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.lightbox-content{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin: 6% auto;
+    z-index: 5;
+}
+
+.lightbox-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.lightbox-prev,
+.lightbox-next{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.43);
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 30px;
+    top: 45%;
+    cursor: pointer;
+}
+.lightbox-prev{
+    left: 0;
+}
+.lightbox-next{
+    right: 0;
+}
+
+.features .play-btn2 span i
+{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 28px;
+    left: 26px;
+    top: 19px;
+}
+
+.play-btn2 {
+    color: white;
+    width: 69px;
+    height: 69px;
+    background: radial-gradient( #0d6eff 62%, #0d6eff 62%);
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    left: 5%;
+    z-index: 3;
+  }
+  
+  /* triangle */
+  .play-btn2::after {
+    content: '';
+    position: absolute;
+    border: 15px solid #0d76ff4d;
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    top: -21%;
+    left: -22%;
+  }
+  
+  /* pulse wave */
+  .play-btn2:before {
+    content: "";
+    position: absolute;
+    width: 165%;
+    height: 165%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate1 1.8s;
+    animation: pulsate1 1.8s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid #0d6eff;
+    top: -33%;
+    left: -32%;
+  }
+  
+  @-webkit-keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.65);
+      transform: scale(0.65);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(0.9);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+  
+  @keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.65);
+      transform: scale(0.65);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(0.9);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+
+.features .Goals
+{
+    padding: 0;
+    padding-top: 5%;
+}
+
+.features .Goals .pic3
+{
+    background:linear-gradient(rgba(22, 46, 83, 0.445), rgba(23, 49, 88, 0.551)), url('../img/bg-img.jpg') center center;
+    width: 100%;
+    height: 380px;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.features .Goals .pic3 .part-from
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 60, 134, 0.144);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.features .Goals .pic3 .more
+{
+    z-index: 3;
+    color: white;
+}
+
+.features .Goals .pic3 .more h3
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+.features .Goals .pic3 .more p
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.Values
+{
+    margin-top: 3%;
+}
+
+.Values h2
+{
+    color: rgba(13, 24, 71, 0.828);
+    font-family: "Signika", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Values h2::after
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: 8px;
+    top: 52%;
+}
+
+.Values h2::before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: -40px;
+    top: 52%;
+}
+
+.Values .value-line
+{
+    position: relative;
+}
+
+.Values .value-line::before
+{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    left: 0;
+    background-color:  #ff3c3c;
+    border-radius: 3px;
+}
+
+.Values div p
+{
+    font-size: 23px;
+    color: rgb(64, 63, 63);
+    font-family: "Signika", sans-serif;
+    margin-left: 40px;
+    letter-spacing: 1px;
+}
+
+.Values p i
+{
+    color: #ff3c3c;
+    padding-right:3% ;
+}
+
+.Coaches
+{
+    margin-top: 5%;
+}
+
+.Coaches h2
+{
+    color: rgba(13, 24, 71, 0.828);
+    font-family: "Signika", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Coaches h2::after
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: 8px;
+    top: 52%;
+}
+
+.Coaches h2::before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: -40px;
+    top: 52%;
+}
+
+.Coaches h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.Coaches p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(64, 63, 63);
+    font-weight:normal;
+    width: 80%;
+}
+
+.Coaches .Coach-info
+{
+    position: relative;
+    padding-left: 4.5%;
+}
+
+.Coaches .Coach-info::before
+{
+    content: '';
+    position: absolute;
+    width: 3.5px;
+    height: 100%;
+    left: 2%;
+    background-color:  rgba(54, 142, 250, 0.894);
+    border-radius: 3px;
+}
+
+.Coach-details
+{
+    padding-top: 10%;
+}
+
+footer
+{
+    background-color:  rgba(32, 33, 33, 0.894);
+    color: rgb(221, 219, 219);
+}
+
+footer .copyright
+{
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+footer .credits
+{
+    padding-bottom: 2%;
+}
+
+footer .credits a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.features .play-btn span i
+{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 28px;
+    left: 26px;
+    top: 19px;
+    font-weight: bold;
+}
+
+.play-btn {
+    color: white;
+    width: 69px;
+    height: 69px;
+    background: radial-gradient( #ff0d0d 62%, #ff0d0d 62%);
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    left: 3%;
+  }
+  
+  /* triangle */
+  .play-btn::after {
+    content: '';
+    position: absolute;
+    border: 15px solid #ff0d0d48;
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    top: -21%;
+    left: -22%;
+  }
+  
+  /* pulse wave */
+  .play-btn:before {
+    content: "";
+    position: absolute;
+    width: 165%;
+    height: 165%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate1 1.8s;
+    animation: pulsate1 1.8s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid #ff0d0d;
+    top: -33%;
+    left: -32%;
+  }
+  
+  @-webkit-keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.65);
+      transform: scale(0.65);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(0.9);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+  
+  @keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.65);
+      transform: scale(0.65);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(0.9);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+
+.main-btn i
+{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    background-color: #ff0d0d;
+    bottom: 15px;
+    right: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.8s;
+    z-index: 5;
+}
+
+.Contacts
+{
+    padding-top: 5%;
+}
+
+.contact{
+    background-image: url('../img/photo4.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay-2{
+    background-color: rgba(0, 0, 0, 0.478);
+    opacity: 0.7;
+}
+
+.Contacts h2
+{
+    color: rgba(13, 24, 71, 0.828);
+    font-family: "Signika", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Contacts h2::after
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: 8px;
+    top: 52%;
+}
+
+.Contacts h2::before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ff0d0d;
+    margin-left: -40px;
+    top: 52%;
+}
+
+.Contacts a i
+{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.Contacts .Email a i
+{
+    color: rgb(21, 21, 21);
+}
+
+.Contacts .Facebook a i
+{
+    color: rgb(0, 94, 255);
+}
+
+.Contacts .Whatsapp a i
+{
+    color: rgb(27, 173, 27);
+}
+
+.Contacts a
+{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.Contacts h3
+{
+    font-family: "popins", sans-serif;
+    font-size: 30px;
+    color: rgba(13, 24, 71, 0.828);
+    font-weight: bold;
+}
+
+.Contacts .about-contact
+{
+    border: 5px solid white;
+    box-shadow: 0px 2px 20px rgba(220, 223, 229, 0.296);
+    margin: 0 8%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    background-color: rgb(246, 245, 245);
+}
+
+@media all and (max-width: 991px){
+    html,body
+    {
+        overflow-x: hidden;
+    }
+
+    .About
+    {
+        padding-top: 5%;
+    }
+    .About .About-feature .details
+    {
+        padding-top: 5%;
+    }
+
+    .Values .value-details .text-line
+    {
+        padding-top: 30px;
+    }
+
+    .Gallery
+    {
+        padding-bottom: 4%;
+    }
+
+    .Coaches .Coach-info
+    {
+        padding-top: 40px;
+    }
+
+    .Coaches .Coach-info div
+    {
+        margin-left: 20px;
+    }
+
+    .Services
+    {
+        margin-top: 5%;
+    }
+
+    .Services .text-line
+    {
+        padding-top: 8%;
+    }
+
+    .features .navs ul
+    {
+        padding-top: 20px;
+    }
+
+    .btn-style
+    {
+        margin-top:20px ;
+        text-align: start;
+    }
+    
+    .features .navs ul li a
+    {
+        padding-top: 20px;
+        margin-left: 15px;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .Services .text-line
+    
+    {
+        margin-left: 0;
+    }
+
+    .Services .text-line .service-details
+    {
+        padding-left: 20px;
+    }
+
+    ul .nav-active
+    {
+        position: relative;
+        transition: none;
+    }
+
+    ul .nav-active::after
+    {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        background-color: none;
+        transition: none;
+    }
+
+    ul li
+    {
+        position: relative;
+        transition: none;
+    }
+
+    ul li::after
+    {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        transition: none;
+    }
+
+    ul li:hover::after
+    {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        background-color: none;
+        transition: none;
+    }
+
+    .features h2
+    {
+        font-size: 35px;
+    }
+
+    .features .feature h2
+    {
+        font-size: 35px;
+    }
+
+    .features .bg-text h2
+    {
+        font-size: 35px;
+    }
+
+    .features .Goals .pic3 .more p
+    {
+        font-size: medium;
+    }
+
+    .features .Values .value-details
+    {
+        padding-top: 8%;
+        padding-left: 1px;
+    }
+
+    .features .Gallery .gallery-text
+    {
+        margin-left: 18%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .Contacts h3
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Contacts a
+    {
+        font-size: 13px;
+    }
+
+    .lightbox-prev,
+    .lightbox-next{
+        font-size: 25px;
+    }
+
+    .lightbox-content{
+        height: 35%;
+        top: 25%;
+    }
+}
+
+
+
+
+
+
+
